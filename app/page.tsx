@@ -2,7 +2,6 @@
 import styles from "./page.module.css";
 import { Wallet, ConnectWallet, WalletDropdown, WalletDropdownLink, WalletDropdownDisconnect } from "@coinbase/onchainkit/wallet";
 import { Identity, Avatar, Name, Address, EthBalance } from "@coinbase/onchainkit/identity";
-import { color } from '@coinbase/onchainkit/theme';
 import CreateLock from "./components/CreateLock";
 import LockList from "./components/LockList";
 

@@ -2,7 +2,7 @@
 import { useAccount, useReadContract, useWriteContract, useWaitForTransactionReceipt } from 'wagmi';
 import { SAVINGS_LOCK_ABI, SAVINGS_LOCK_ADDRESS } from './SavingsABI';
 import { formatEther } from 'viem';
-import { useEffect, useState } from 'react';
+import { useState } from 'react';
 
 // Helper component to render individual lock details
 function LockItem({ lockId }: { lockId: bigint }) {
@@ -14,7 +14,7 @@ function LockItem({ lockId }: { lockId: bigint }) {
     });
 
     const { data: hash, isPending, writeContract } = useWriteContract();
-    const { isLoading: isConfirming, isSuccess: isConfirmed } = useWaitForTransactionReceipt({ hash });
+    const { isSuccess: isConfirmed } = useWaitForTransactionReceipt({ hash });
 
     const handleWithdraw = () => {
         writeContract({
