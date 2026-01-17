@@ -94,4 +94,4 @@ export const SAVINGS_LOCK_ABI = [
 ] as const;
 
 // Placeholder address - REPLACE THIS AFTER DEPLOYMENT
-export const SAVINGS_LOCK_ADDRESS = "0x04FfBcaE2d099897bE9cb43d7e31Bb3b031a962a"; 
+export const SAVINGS_LOCK_ADDRESS = ""; 
