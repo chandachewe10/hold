@@ -93,5 +93,5 @@ export const SAVINGS_LOCK_ABI = [
   }
 ] as const;
 
-// Placeholder address - REPLACE THIS AFTER DEPLOYMENT
-export const SAVINGS_LOCK_ADDRESS = ""; 
+// Address loaded from environment variables
+export const SAVINGS_LOCK_ADDRESS = process.env.NEXT_PUBLIC_SAVINGS_LOCK_ADDRESS as `0x${string}`; 
