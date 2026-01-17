@@ -1,0 +1,41 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\xampp\\htdocs\\Base\\my-onchainkit-app\\contracts\\SavingsLock.sol": {
+      "lastModificationDate": 1768644782966,
+      "contentHash": "509c1a6afc992fafabf5f4ec1b60c74b",
+      "sourceName": "contracts/SavingsLock.sol",
+      "solcConfig": {
+        "version": "0.8.23",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.23"
+      ],
+      "artifacts": [
+        "SavingsLock"
+      ]
+    }
+  }
+}
