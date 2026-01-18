@@ -9,10 +9,7 @@ const nextConfig: NextConfig = {
     };
     return config;
   },
-  devIndicators: {
-    appIsrStatus: false,
-    buildActivity: false,
-  },
+
 };
 
 export default nextConfig;
